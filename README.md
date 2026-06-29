@@ -1,4 +1,5 @@
-# ASESORIA-I-
+# Caracterización estadística de la actividad sísmica Chile–Japón (2000–2025)
+Asesoría Estadística I • Ingeniería Estadística • USACH
 Disponibilidad de Código y Transparencia Metodológica en el pre-informe de asesoría Con el objetivo de garantizar la reproducibilidad, transparencia y validez estadística de los resultados presentados en este preinforme de asesoría, se adjunta el código fuente completo desarrollado en el lenguaje de programación R. En este repositorio público se encuentran centralizadas todas las etapas del análisis: desde la ingesta y unificación de los datos sísmicos crudos para Chile y Japón, hasta el procesamiento de magnitudes homogéneas (Mw), la categorización de profundidades y la generación de la visualización georeferenciada y temporal.El script ha sido optimizado con ayuda de inteligencia artificial (Gemini AI y ClaudeAI), para permitir que cualquier revisor externo pueda replicar los modelos, las tablas de contingencia y los gráficos descriptivos de manera exacta.
 
 ## QUE ENCONTRARÁS AQUÍ
