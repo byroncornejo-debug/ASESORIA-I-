@@ -33,3 +33,16 @@ Scripts completamente documentados para la descarga, limpieza, procesamiento y a
 - Resultados reproducibles
 
 Todas las tablas, figuras y análisis del informe pueden regenerarse ejecutando el código disponible en este repositorio.
+
+
+## Avances y diferencias entre Pre-Informe e Informe de Asesoria I
+
+Estructura y contenido nuevo:
+
+- Se añaden dos variables nuevas al dataset: fosa y dist_fosa_km, que asignan cada sismo a su zona de subducción más cercana. El preinforme solo generaba 3 variables extras; la asesoría genera 5.
+- Se incorpora una sección de Dashboard Interactivo (sección 3) con enlace a la herramienta en Shiny.
+- Se agrega una sección enteramente nueva: análisis por sistema de subducción (sección 5.5), que desagrega los resultados por fosa oceánica (Japan Trench, Bonin Trench, Nankai Trough, etc.), lo cual no existía en el preinforme.
+- Se incorpora una subsección nueva de análisis de asociación (5.2.5) con correlaciones de Pearson y Spearman entre magnitud/profundidad y entre distancia a la fosa/profundidad, incluyendo la relación de Wadati-Benioff.
+- Las propuestas son considerablemente más detalladas y fundamentadas. Se agregan pruebas específicas como el test de Poisson para dos muestras, la prueba de Wilcoxon/Mann-Whitney, y se especifican condiciones previas de aplicación para cada test.
+- Se incorpora explícitamente el modelo de Gutenberg-Richter como propuesta de análisis comparativo.
+- Se añaden propuestas de análisis de series temporales con ACF y PACF.
